@@ -1,61 +1,105 @@
 @media only screen and (min-width: 769px) {
-    *{}
-    html,body{
+    * {}
+
+    html,
+    body {
         font-family: Arial, Helvetica, "微軟正黑體", sans-serif;
         margin: 3em;
     }
-    .header{
+
+    .header {
         background-color: rgb(118, 167, 241);
-        display:flex;
+        display: flex;
         justify-content: space-between;
         padding: 30px;
         align-items: center;
     }
 
-    .header h1{
+    .header h1 {
         color: rgb(252, 252, 108);
         font-size: 70px;
     }
-    .header h2{
+
+    .header h2 {
         color: rgb(252, 252, 108);
         font-size: 30px;
-    } 
-    .header h1 img{
+    }
+
+    .header h1 img {
         width: 50px;
         height: 50px;
     }
+
     .info {
         background-color: rgb(118, 167, 241);
-        display:flex;
+        display: flex;
         padding: 30px;
         align-items: center;
     }
-    .info h2{
+
+    .info h2 {
         color: rgb(252, 252, 108);
         font-size: 30px;
     }
-    .info h3{
+
+    .info h3 {
         color: rgb(252, 252, 108);
         font-size: 25px;
     }
-    
+
+    table {
+        border-collapse: collapse;
+        border: 2px solid rgb(140 140 140);
+        font-family: sans-serif;
+        font-size: 0.8rem;
+        letter-spacing: 1px;
+    }
+
+    thead {
+        background-color: rgb(228 240 245);
+    }
+
+    th,
+    td {
+        border: 1px solid rgb(160 160 160);
+        padding: 8px 10px;
+    }
+
+    td:last-of-type {
+        text-align: center;
+    }
+
+    tbody>tr:nth-of-type(even) {
+        background-color: rgb(237 238 242);
+    }
+
+
+
 }
+
 @media only screen and (min-width: 321px) and (max-width: 768px) {
-    html,body{
+
+    html,
+    body {
         font-family: Arial, Helvetica, "微軟正黑體", sans-serif;
         margin: 2em;
     }
-    .header h1 img{
+
+    .header h1 img {
         width: 50px;
         height: 50px;
     }
 }
-@media only screen and (min-width: 0px) and (max-width: 320px){
-    html,body{
+
+@media only screen and (min-width: 0px) and (max-width: 320px) {
+
+    html,
+    body {
         font-family: Arial, Helvetica, "微軟正黑體", sans-serif;
         margin: 1em;
     }
-    .header h1 img{
+
+    .header h1 img {
         width: 60px;
         height: 60px;
     }
